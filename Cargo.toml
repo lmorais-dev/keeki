@@ -10,5 +10,30 @@ readme = "README.md"
 homepage = "https://github.com/lmorais-dev/keeki"
 repository = "https://github.com/lmorais-dev/keeki"
 
-
 [dependencies]
+tokio = { version = "1.39.2", features = ["full"] }
+bytes = { version = "1.7.1", features = ["serde"] }
+
+clap = { version = "4.5.14", features = ["derive", "unicode"] }
+inquire = { version = "0.7.5", features = ["chrono"] }
+config = { version = "0.14.0", features = ["indexmap", "preserve_order"] }
+glob-match = { version = "0.2.1" }
+prettytable-rs = { version = "0.10.0" }
+
+reqwest = { version = "0.12.5", features = ["json", "stream"] }
+surrealdb = { version = "1.5.4", features = ["kv-speedb"] }
+surreal-id = { version = "1.0.0" }
+
+serde = { version = "1.0.205", features = ["derive"] }
+serde_json = { version = "1.0.122", features = ["preserve_order", "float_roundtrip", "indexmap"] }
+toml = { version = "0.8.19", features = ["indexmap", "preserve_order"] }
+hex = { version = "0.4.3", features = ["serde"] }
+
+gxhash = { version = "3.4.1" }
+
+color-eyre = { version = "0.6.3" }
+thiserror = { version = "1.0.63" }
+async-trait = { version = "0.1.81" }
+num-traits = { version = "0.2.19" }
+
+log = { version = "0.4.22", features = ["serde"] }

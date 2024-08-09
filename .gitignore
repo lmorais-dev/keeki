@@ -1,1 +1,7 @@
+/.idea
+/.keeki
 /target
+
+
+/*.iml
+/keeki.toml
