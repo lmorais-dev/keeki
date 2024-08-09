@@ -1,6 +1,14 @@
 [package]
 name = "keeki"
+description = "Keeki (as in Cake) is a AI CLI tool to help developers deliver faster by using RAG techniques. "
 version = "0.1.0"
 edition = "2021"
+authors = ["Lucas Morais Gurgel <lucas.morais@lsconsult.tech>"]
+license = "MIT"
+license-file = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/lmorais-dev/keeki"
+repository = "https://github.com/lmorais-dev/keeki"
+
 
 [dependencies]
